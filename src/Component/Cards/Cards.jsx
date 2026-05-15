@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Cards.css";
 import React from 'react'
+import i18next from "i18next";
 
 function Cards() {
     const {t, i18n } = useTranslation();
