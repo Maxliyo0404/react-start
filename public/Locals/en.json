@@ -1,5 +1,8 @@
 {
     "cards": { 
-    "title": "Leave your information"
+    "title": "Leave your information",
+    "name": "Enter your name",
+  "number": "+998",
+  "btn": "Submit"
 }
 }

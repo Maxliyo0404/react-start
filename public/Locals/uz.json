@@ -1,5 +1,8 @@
 {
     "cards":{
-        "title": "Ma'lumotlaringizni qoldiring"
+        "title": "Ma'lumotlaringizni qoldiring",
+        "name": "Ismingizni kiriting",
+        "number": "+998",
+         "btn": "Jo'natish"
     }
 }
