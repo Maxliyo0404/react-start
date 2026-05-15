@@ -1,10 +1,11 @@
 import "./App.css";
 import React from 'react'
+import Cards from "./Component/Cards/Cards";
 
 function App() {
   return (
     <>
-    
+    <Cards/>
     </>
   )
 }
