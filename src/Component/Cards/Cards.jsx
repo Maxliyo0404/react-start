@@ -6,7 +6,14 @@ import i18next from "i18next";
 function Cards() {
     const {t, i18n } = useTranslation();
     const handleChangeLanguage = (event) =>{
-      i18n.handleChangeLanguage(event.target.value)
+     i18n.changeLanguage(event.target.value)
+    }
+    const sendMessage = (event)=>{
+        event.preventDefault();
+         const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
+         const chat_id =  647264939
+         const url = `https://api.telegram.org/bot${token}/sendMessage`;
+         const
     }
   return (
     <div className="container">
@@ -16,8 +23,9 @@ function Cards() {
             <option value="ru"> Rus</option>
          </select>
         <h1 className="title">{t("cards.title")}</h1>
+        <form className="form"></form>
     </div>
   )
 }
 
-export default Cards
+export default Cards 
