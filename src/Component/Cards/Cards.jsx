@@ -4,9 +4,17 @@ import React from 'react'
 
 function Cards() {
     const {t, i18n } = useTranslation();
+    const handleChangeLanguage = (event) =>{
+      i18n.handleChangeLanguage(event.target.value)
+    }
   return (
     <div className="container">
-        <h1 className="title"></h1>
+         <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
+           <option value="uz">Uz</option>
+            <option value="en">Eng</option>
+            <option value="ru"> Rus</option>
+         </select>
+        <h1 className="title">{t("cards.title")}</h1>
     </div>
   )
 }
