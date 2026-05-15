@@ -13,7 +13,8 @@ function Cards() {
          const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
          const chat_id =  647264939
          const url = `https://api.telegram.org/bot${token}/sendMessage`;
-         const name = document.getElementById("username")
+         const name = document.getElementById("username").value
+         const number = document.getElementById("tel").value
     }
   return (
     <div className="container">
@@ -25,8 +26,12 @@ function Cards() {
         <h1 className="title">{t("cards.title")}</h1>
         <form className="form">
             <label className="label">
-                <input id="username" type="text"required placeholder=" " />
+                <input id="username" type="text"required placeholder={t("cards.name")} />
             </label>
+            <label className="label">
+                <input id="tel" type="number"required placeholder={t("cards.number")} />
+            </label>
+            <button type="submit" className="button">{t("cards.btn")}</button>
         </form>
     </div>
   )
