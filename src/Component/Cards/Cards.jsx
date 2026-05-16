@@ -25,6 +25,9 @@ function Cards() {
             text:messageContent,
           }
          })
+         .then((erorr)=>{
+            alert("Hammasi joyida")
+         })
     }
   return (
     <div className="container">
