@@ -36,6 +36,8 @@ input{
 .btn{
     width: 100%;
     padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
     background: green;
     color: #fff;
     border-radius: 8px;
