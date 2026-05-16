@@ -28,6 +28,7 @@ function Cards() {
          .then(()=>{
             alert("Hammasi joyida ✅");
          }).catch((error)=>{
+            console.log(error);
             
          })
     }
