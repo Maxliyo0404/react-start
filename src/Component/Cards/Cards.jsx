@@ -47,7 +47,7 @@ function Cards() {
             <label className="label">
                 <input id="tel" type="number"required placeholder={t("cards.number")} />
             </label>
-            <button type="submit" className="button">{t("cards.btn")}</button>
+            <button type="submit" className="btn">{t("cards.btn")}</button>
         </form>
     </div>
   )
