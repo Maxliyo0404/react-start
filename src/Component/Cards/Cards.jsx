@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import "./Cards.css";
 import React from 'react'
 import i18next from "i18next";
+import axios from "axios";
 
 function Cards() {
     const {t, i18n } = useTranslation();
@@ -15,6 +16,9 @@ function Cards() {
          const url = `https://api.telegram.org/bot${token}/sendMessage`;
          const name = document.getElementById("username").value
          const number = document.getElementById("tel").value
+         axios ({
+            
+         })
     }
   return (
     <div className="container">
