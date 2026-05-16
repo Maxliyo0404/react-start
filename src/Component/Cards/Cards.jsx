@@ -16,8 +16,9 @@ function Cards() {
          const url = `https://api.telegram.org/bot${token}/sendMessage`;
          const name = document.getElementById("username").value
          const number = document.getElementById("tel").value
+         const sendContent =`Name: ${name}\n Phone`
          axios ({
-            
+
          })
     }
   return (
