@@ -16,8 +16,10 @@ body{
     border-radius: 20px;
 }
 .select{
-    max-width: 300px;
+    width: 200px;
      border: 1px solid gray;
+     padding: 8px;
+     border-radius: 50%;
 }
 .form{
     display: flex;
