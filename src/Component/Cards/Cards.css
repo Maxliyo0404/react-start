@@ -48,7 +48,8 @@ option{
 
 }
 input{
-    width: 340px;
+    max-width: 100%;
+    width: 300px;
     padding: 10px;
     border: 1px solid gray;
     outline: none;
