@@ -16,10 +16,16 @@ body{
     border-radius: 20px;
 }
 .select{
+    margin-right: auto;
     width: 200px;
      border: 1px solid gray;
      padding: 8px;
-     border-radius: 50%;
+     border-radius: 50px;
+}
+option{
+      border: 1px solid gray;
+     padding: 8px;
+    border-radius: 50px;
 }
 .form{
     display: flex;
