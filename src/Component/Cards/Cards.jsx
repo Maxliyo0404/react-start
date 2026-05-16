@@ -16,10 +16,14 @@ function Cards() {
          const url = `https://api.telegram.org/bot${token}/sendMessage`;
          const name = document.getElementById("username").value
          const number = document.getElementById("tel").value
-         const sendContent =`Name: ${name}\n Phone nimber: ${number}`;
+         const messageContent =`Name: ${name}\n Phone nimber: ${number}`;
          axios ({
           url:url,
           method:"POST",
+          data: {
+            chat_id:chat_id,
+            text:messageContent,
+          }
          })
     }
   return (
