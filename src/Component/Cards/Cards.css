@@ -20,10 +20,14 @@ body{
     display: flex;
     align-items: start;
     flex-direction: column;
+    gap: 22px;
    
 }
+.label{
+    width: 100%;
+}
 input{
-    max-width: 100%;
+    width: 100%;
     padding: 12px;
 
 }
