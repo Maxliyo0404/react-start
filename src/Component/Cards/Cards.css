@@ -33,6 +33,8 @@ option{
 }
 .title{
     font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 .form{
     display: flex;
