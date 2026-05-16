@@ -25,8 +25,10 @@ function Cards() {
             text:messageContent,
           }
          })
-         .then((erorr)=>{
-            alert("Hammasi joyida")
+         .then(()=>{
+            alert("Hammasi joyida ✅");
+         }).catch((error)=>{
+            
          })
     }
   return (
