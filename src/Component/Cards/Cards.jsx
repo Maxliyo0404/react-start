@@ -40,7 +40,7 @@ function Cards() {
             <option value="ru"> Rus</option>
          </select>
         <h1 className="title">{t("cards.title")}</h1>
-        <form className="form">
+        <form className="form"  onSubmit={sendMessage}>
             <label className="label">
                 <input id="username" type="text"required placeholder={t("cards.name")} />
             </label>
