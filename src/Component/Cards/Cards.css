@@ -24,11 +24,15 @@ body{
      font-weight: bold;
      background: black;
      color: #fff;
+     margin-bottom: 25px;
 }
 option{
       border: 1px solid gray;
      padding: 8px;
     border-radius: 50px;
+}
+.title{
+    font-size: 30px;
 }
 .form{
     display: flex;
