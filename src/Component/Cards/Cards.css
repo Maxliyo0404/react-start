@@ -15,7 +15,11 @@ body{
     align-items: center;
 }
 .form{
-  
+    max-width: 100%;
+    border: ;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
    
 
    
