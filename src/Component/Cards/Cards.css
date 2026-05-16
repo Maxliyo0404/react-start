@@ -16,11 +16,9 @@ body{
 }
 .form{
     max-width: 100%;
-    border: ;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-   
-
+    border: 1px solid gray;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
    
 }
