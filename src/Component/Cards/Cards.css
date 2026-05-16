@@ -15,8 +15,6 @@ body{
     align-items: center;
 }
 .form{
-    max-width: 100%;
-    border: 1px solid gray;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -25,10 +23,13 @@ body{
 }
 .label{
     width: 100%;
+
 }
 input{
     width: 100%;
     padding: 12px;
+      border: 1px solid gray;
+      outline: none;
 
 }
 .btn{
