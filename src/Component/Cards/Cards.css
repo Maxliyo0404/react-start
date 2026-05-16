@@ -26,10 +26,11 @@ body{
 
 }
 input{
-    width: 100%;
-    padding: 12px;
-      border: 1px solid gray;
-      outline: none;
+    width: 340px;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 12px;
 
 }
 .btn{
