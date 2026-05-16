@@ -5,5 +5,14 @@ body{
 }
 .container{
     max-width: 400px;
+    min-height: 400px;
     margin:  0 auto;
+}
+.form{
+    max-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background: white;
 }
