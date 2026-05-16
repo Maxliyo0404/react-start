@@ -18,7 +18,8 @@ function Cards() {
          const number = document.getElementById("tel").value
          const sendContent =`Name: ${name}\n Phone nimber: ${number}`;
          axios ({
-
+          url:url,
+          method:"POST",
          })
     }
   return (
