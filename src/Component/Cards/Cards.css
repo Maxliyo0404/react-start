@@ -36,4 +36,6 @@ input{
 .btn{
     width: 100%;
     padding: 8px;
+    background: green;
+    color: #fff;
 }
